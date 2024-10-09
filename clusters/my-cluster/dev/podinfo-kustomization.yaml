@@ -23,7 +23,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 30m0s
-  path: ./apps/podfinfo/overlays/dev
+  path: "../../apps/podfinfo/overlays/dev"
   prune: true
   sourceRef:
     kind: GitRepository
